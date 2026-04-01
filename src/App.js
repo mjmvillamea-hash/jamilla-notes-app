@@ -46,6 +46,7 @@ function App() {
   // Load notes when page opens
   useEffect(() => {
     fetchNotes();
+    // eslint-disable-next-line react-hooks/exhaustive-deps
   }, []);
 
   // Format date
